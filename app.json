@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "gestion-de-gimnasios-app",
-    "slug": "gestion-de-gimnasios-app",
+    "name": "Gestion Gimnasios",
+    "slug": "Gestion Gimnasios",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "gestiondegimnasiosapp",
+    "scheme": "gestiongimnasios",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
