@@ -25,18 +25,18 @@ export default function HomeScreen() {
             justifyContent: "center",
             alignItems: "center",
             backgroundColor: "#181818",
-            position:'relative'
+            position: 'relative'
           }}
         >
           <Text style={{ color: "#fff", fontSize: 18 }}>
             Error al cargar, verifica tu conectividad!
           </Text>
-          <TouchableOpacity onPress={() => setHasError(false)} style={{position:'absolute',bottom:85}}>
+          <TouchableOpacity onPress={() => setHasError(false)} style={{ position: 'absolute', bottom: 85 }}>
             <Text style={{ color: "#fff", fontSize: 18 }}>
               Volver a intentar
             </Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => setHasError(false)} style={{position:'absolute',bottom:35}}>
+          <TouchableOpacity onPress={() => setHasError(false)} style={{ position: 'absolute', bottom: 35 }}>
             <Text style={{ color: "#fff", fontSize: 18 }} onPress={exitApp}>
               Salir
             </Text>
@@ -44,7 +44,7 @@ export default function HomeScreen() {
         </View>
       ) : (
         <WebView
-          source={{ uri: "https://gestion-de-gimnasios.vercel.app/client" }}
+          source={{ uri: "https://gym.devsoulit.com/client" }}
           style={{ flex: 1 }}
           onError={() => setHasError(true)} // Maneja el error y cambia el estado
         />
